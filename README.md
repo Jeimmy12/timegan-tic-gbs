@@ -1,4 +1,9 @@
 # 🧠 TIC-BioRetroalimentación: Rehabilitación Asistida con Aprendizaje Automático
+Este proyecto fue desarrollado como parte de una tesis de ingeniería enfocada en la mejora de procesos de rehabilitación mediante Inteligencia Artificial.
+
+Autor: Jeimmy Eche
+Institución: Escuela Politécnica Nacional
+Año: 2025
 
 Este proyecto forma parte de una iniciativa de investigación en el campo de la rehabilitación motora utilizando tecnologías de interacción humano-robot (HRpI), centrada en el **uso de datos sintéticos y modelos de regresión** para predecir la energía mecánica total (Hamiltoniano, _H_) durante ejercicios terapéuticos de miembros superiores.
 
@@ -14,14 +19,23 @@ Desarrollar una arquitectura de aprendizaje automático capaz de:
 ## 🧱 Estructura del Proyecto
 
 TIC_JE/
+
 │
+
 ├── pasivos/ # Datos reales pasivos por paciente
+
 │ ├── comparationModels/ # Exploración comparación de modelos de ML de regresión
+
 │ └── predictionSyntheticTIC/ # Predicción de H en sintéticos y reales
+
 │ └── realData/ # Datos reales pasivos
+
 ├── activos/
+
 │ ├── realData/ # Datos reales activos
+
 │ └── syntheticData/ # Datos sintéticos generados con TimeGAN
+
 │ └── timeGAN/ # Arquitectura TimeGAN
 
 ## ⚙️ Tecnologías Utilizadas
@@ -63,9 +77,3 @@ git clone https://github.com/tuusuario/TIC-BioRetroalimentacion.git
 cd TIC-BioRetroalimentacion
 
 ## ---
-
-Este proyecto fue desarrollado como parte de una tesis de ingeniería enfocada en la mejora de procesos de rehabilitación mediante Inteligencia Artificial.
-
-Autor: Jeimmy Eche
-Institución: Escuela Politécnica Nacional
-Año: 2025
