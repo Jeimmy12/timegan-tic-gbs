@@ -1,0 +1,40 @@
+# Entornos virtuales
+env/
+envi/
+.venv/
+
+# Python cache y archivos temporales
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+
+# Archivos de modelos y pesos
+*.pt
+*.pkl
+*.h5
+*.joblib
+
+# Archivos binarios grandes (DLLs, LIBs, etc.)
+*.dll
+*.lib
+*.pyd
+*.so
+
+# Checkpoints o salidas de entrenamiento
+checkpoints/
+Activos/timeGan/checkpoints/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de Jupyter temporales
+.ipynb_checkpoints/
+
+# Archivos de VSCode y editores
+.vscode/
+.idea/
+
+# Archivos de configuración local
+*.env
